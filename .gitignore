@@ -1,3 +1,7 @@
+# =======================
+# Java files
+# =======================
+
 # Compiled class file
 *.class
 
@@ -19,6 +23,50 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# Virtual machine crash logs
 hs_err_pid*
 replay_pid*
+
+
+# =======================
+# Node.js / JavaScript files
+# =======================
+
+# Node modules
+node_modules/
+
+# Dependency directories
+jspm_packages/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build output
+dist/
+build/
+.cache/
+.next/
+out/
+.tmp/
+temp/
+
+# Coverage directory
+coverage/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor files
+.vscode/
+.idea/
