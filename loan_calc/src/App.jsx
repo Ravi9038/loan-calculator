@@ -1,13 +1,13 @@
 import { useState } from 'react'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Home from './Pages/LoanRepaymentTable'
+import LoanRepaymentTable from './Pages/LoanRepaymentTable'
 
 function App() {
   return (
-    <div>
+    <div className="loan-calculator">
       <Router>
         <Routes>
-          <Route exact path="/" element={<Home />} />
+          <Route path="/" element={<LoanRepaymentTable />} />
         </Routes>
       </Router>
     </div>
